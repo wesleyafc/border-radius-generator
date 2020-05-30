@@ -1,0 +1,70 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap");
+
+body {
+  background: linear-gradient(to left, #8e54e9, #4776e6);
+}
+
+:root {
+  --top-left: 0px;
+  --top-right: 0px;
+  --bottom-left: 0px;
+  --bottom-right: 0px;
+}
+
+p {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.box-area {
+  display: flex;
+  width: 100%;
+  height: 30em;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.box {
+  border: 2px solid rgb(255, 251, 0);
+  width: 20vw;
+  height: 20vw;
+  background: linear-gradient(to left, #c6ffdd, #fbd786, #f7797d);
+
+  border-radius: var(--top-left) var(--top-right) var(--bottom-left)
+    var(--bottom-right);
+}
+
+label {
+  font-size: 20px;
+  display: inline-block;
+  width: 140px;
+  text-align: left;
+  align-items: center;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+
+button {
+  margin: auto;
+  display: block;
+  padding-top: 10px;
+  border: 1px solid rgb(255, 251, 0);
+  width: 30%;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
